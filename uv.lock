@@ -1938,6 +1938,7 @@ dependencies = [
     { name = "pypdf" },
     { name = "requests" },
     { name = "rich" },
+    { name = "uvicorn", extra = ["standard"] },
 ]
 
 [package.dev-dependencies]
@@ -1960,6 +1961,7 @@ requires-dist = [
     { name = "pypdf", specifier = ">=5.4.0" },
     { name = "requests", specifier = ">=2.32.3" },
     { name = "rich", specifier = ">=13.9.4" },
+    { name = "uvicorn", extras = ["standard"], specifier = ">=0.34.0" },
 ]
 
 [package.metadata.requires-dev]

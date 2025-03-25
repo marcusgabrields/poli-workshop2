@@ -18,6 +18,7 @@ dependencies = [
     "pinecone>=6.0.2",
     "langchain-pinecone>=0.2.0",
     "fastapi[standard]>=0.115.12",
+    "uvicorn[standard]>=0.34.0",
 ]
 
 [dependency-groups]
