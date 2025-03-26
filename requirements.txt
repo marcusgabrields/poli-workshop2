@@ -68,7 +68,6 @@ orjson==3.10.15 ; platform_python_implementation != 'PyPy'
 packaging==24.2
 pinecone==6.0.2
 pinecone-client==5.0.1
-pinecone-plugin-inference==1.1.0
 pinecone-plugin-interface==0.0.7
 prompt-toolkit==3.0.50
 propcache==0.3.0
